@@ -47,8 +47,15 @@ namespace KeywordExamples
             MultiplyBy10(o);
             Console.WriteLine(o);
 
+
+
             Console.ReadLine();
 
+        }
+
+        public static void TessaSaysHello()
+        {
+            Console.WriteLine("Hello from Tessa");
         }
 
         public static void MultiplyBy10(int number)
@@ -59,6 +66,7 @@ namespace KeywordExamples
         public static void MultiplyBy10(MyObject obj)
         {
             obj.MyNumber = obj.MyNumber * 10;
+
         }
 
 
